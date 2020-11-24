@@ -1,0 +1,23 @@
+{
+  "namespace": "io.confluent.demo",
+  "type": "record",
+  "name": "Anomaly",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+       "name": "window_hash",
+       "type": "int"
+    },
+    {
+       "name": "window_start",
+       "type": "string"
+    },
+    {
+       "name": "window_end",
+       "type": "string"
+    }
+  ]
+}
